@@ -1,27 +1,32 @@
 <template>
   <nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand ms-5">
-   <!-- Sidebar toggle button -->
-   <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasSidebar"
-      aria-controls="offcanvasSidebar"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="bi bi-list bi-2x"></i>
-    </button>
-    
-  </a>
-  <form class="form-inline d-flex gap-3 me-5">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
+    <a class="navbar-brand ms-5">
+      <!-- Sidebar toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasSidebar"
+        aria-controls="offcanvasSidebar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-list bi-2x"></i>
+      </button>
+    </a>
+    <form class="form-inline d-flex gap-3 me-5">
+      <input
+        class="form-control mr-sm-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </nav>
   <div>
-
     <!-- Sidebar component with custom width -->
     <div
       class="offcanvas offcanvas-start"
@@ -44,7 +49,10 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="offcanvas-body bg-light" style="background-color: rgba(255, 255, 255, 0.9);">
+      <div
+        class="offcanvas-body bg-light"
+        style="background-color: rgba(255, 255, 255, 0.9)"
+      >
         <!-- User profile section -->
         <div class="user-profile mb-4">
           <img
